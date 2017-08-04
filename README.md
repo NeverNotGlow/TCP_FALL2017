@@ -1,2 +1,2 @@
 # TCP_FALL2017
-This is where I will upload all in class examples
+Slides, examples, HW, everything will be uploaded here!
