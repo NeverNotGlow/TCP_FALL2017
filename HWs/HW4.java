@@ -65,29 +65,34 @@ public class HW4
     {
         while(stringToEncode.length() > 0)
         {
+            //This code repeatedly encodes the 
+            //first letter until there are no left
             char first = stringToEncode.charAt(0);
             stringToEncode = stringToEncode.substring(1);
             System.out.print(encodeChar(first) + " ");
         }
     }
 
-    public static void decodeString(String stringToDecode)
+    public static void decodeString(String StringToDecode)
     {
-        String[] asciiValues =  /* 3) Use a function that turns a string into an array of strings split by a space. Look at the java doc.*/
+        String[] asciiValues =  /* 3) Use a function that turns a String into an array of Strings "split" by a space. Look at the java doc for String and also stackoverflow.com */
 
         for (int i = 0; i < asciiValues.length; i++)
-            System.out.print(decodeChar(asciiValues[i]));
+        {
+            char decodedChar = decodeChar(asciiValues[i]);
+            System.out.print(decodedChar);
+        }
     }
 
     public static char decodeChar(String input)
     {
-        // 4) Decode the string into a int, then into a character.
+        // 4) Decode the String into a int (using String parsing), then into a character.
         return /**/;
     }
 
     public static String encodeChar(char c)
     {
-        // 5) Encode the character into an ascii value, then to a string.
+        // 5) Encode the character into an ascii value, then to a String.
         return /**/;
     }
 }
