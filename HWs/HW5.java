@@ -7,7 +7,7 @@
     Description:
         In this assigment I need you to create a fully sentient AI that can be considered more powerful than a normal human... or you can hack into my grade book and just set your own grade, but you are going to need my username and password ;) 
         
-        You have found that my HW5 gradebook website for HW5 is located at http://40.112.220.134/igb/ . Go to the website and hit the F12 key - the source code for the website should appear (You should use Microsoft Edge). Now if you right-click on the username input box, and then choose 'Inspect element', you can see that I validate the username with a javascript function called checkUsername(). You can find that function by looking for a script tag in the source code of the website or by using the find function in the source code viewer. After that you should see my username written in a String literal.
+        You have found that my HW5 gradebook website for HW5 is located at http://40.112.220.134/igb/ . Go to the website and hit the F12 key (you might need to hold the fn key while you hit the f12 key) - the source code for the website should appear (You should use Microsoft Edge). Now if you right-click on the username input box, and then choose 'Inspect element', you can see that I validate the username with a javascript function called checkUsername(). You can find that function by looking for a script tag in the source code of the website or by using the find function in the source code viewer. After that you should see my username written in a String literal.
 
         Since you have my username now, you can try a random password to get my password hint to come up. 
 
