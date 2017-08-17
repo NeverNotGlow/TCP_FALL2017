@@ -1,34 +1,38 @@
-Link to download the project: https://github.com/NeverNotGlow/TCPDungeon
+Link to download the project: https://github.com/NeverNotGlow/TCP_FALL2017/tree/master/Invasion
 
-Assignment: TCP Dungeon
+Assignment: Invasion
 
 Description:
-In your first project you will make a room in the notorious TCP dungeon located below the school. To do this create a class that extends Room and create a mini game. Look at the example rooms included in the github download.
+In your second project you will make an AI to play the game I made, "Invasion". Your AI plays against another AI for diminion of the stars! Who ever ends up with the best AI wins a Surface 3! 
 
 Steps:
-1) Download the project from: https://github.com/NeverNotGlow/TCPDungeon
+1) Download the files below from: https://github.com/NeverNotGlow/TCP_FALL2017/tree/master/Invasion
+    AI_To_Beat.zip  
+    AI_To_Edit.zip 
+    Invasion.jar 
 
-2) Play the game with the rooms I made
+2) Run the game. Invasion.jar is the server and the game, and you connect two AI clients to it.
+  You can run Invasion.jar like this: java -jar Invasion.jar
+  You can compile an AI.java (Network.java needs to be in the same folder) like this: javac *.java
+  You can run an ai like this: java AI
+  You can optionally pass in a IP adress and port to the AI like this: java AI [IP] [Port]
+  You need two copys of AI connected to the server to the game start (as in you need two command prompts)
 
-3) Read the code of my rooms to learn how to use the Player and Dungeon classes
+3) Copy the folder AI_To_Edit and edit AI.java to make your own AI. Test it against the original and the one in AI_To_Edit
 
-4) Make your own class that extends Room. The playerEnters() method is where the room actually starts (the equivalent of a main function) and should return true if the player was successful in the room, and false if the player was unsuccessful in the room (this will damage the player one health).
-
-5) Play your game a lot and make sure its good!
+4) Make sure its good and prepare to battle!
 
 Grading:
 Your grade is out of 10. Bellow I have layed out what you need to do to get what grade:
 
-0 to 3 - It runs but does not do much
+0 to 5 - An AI that looses to the basic AI included in the file AI_To_Edit
 
-4 to 6 - A couple of branches in a simple story 
+5 to 8 - An AI That can beat the basic AI included in the file AI_To_Edit
 
-7 to 8 - A complex multi branch story (SadRobot.java is in this range)
+9 to 10 - An AI that can beat the AI in AI_To_Beat
 
-9 to 10 - A complex multi branch story with extra mechanics (not just a choose your own adventure, you need at least one more game mechanic) or a full game such as Tic Tac To (GuessingGame.java and FastMath.java are both in this range)
-
-Above 10 - Make something that is really impressive :)
+Above 10 - Use machine learning or make one of the top AIs
 
 Required files in your submission:
-- [your room name].java that you have created
+- AI.java that you edited created
 
